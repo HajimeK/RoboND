@@ -38,7 +38,7 @@ import numpy as np
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
 
-img = cv2.imread('sample.jpg00o')
+img = cv2.imread('sample.jpg')
 rows,cols,ch = img.shape
 pts1 = np.float32([[56,65],[368,52],[28,387],[389,390]])
 pts2 = np.float32([[0,0],[300,0],[0,300],[300,300]])
