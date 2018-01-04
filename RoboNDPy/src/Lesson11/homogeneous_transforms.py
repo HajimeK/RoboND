@@ -2,7 +2,6 @@
 
 from sympy import symbols, cos, sin, pi, sqrt, simplify
 from sympy.matrices import Matrix
-from Lesson11.starter import R_XYZ
 
 ### Create symbols for joint variables
 # The numbers 1 to 4 correspond to each rotation in the order specified to you.
